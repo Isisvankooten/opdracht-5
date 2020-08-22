@@ -1,0 +1,98 @@
+/* css style sheet
+gebruik altijd een class. alleen id bij een uniek elememt*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.container
+{
+    margin: 2%;
+    font-family: verdana, arial;
+    font-size: auto;
+}
+
+
+
+a:link {
+    font-weight: bold;
+    color: hotpink;
+    text-underline-position: above;
+
+}
+a:hover {
+    font-weight: bold;
+    background: lightpink;
+    border: hotpink;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+.zachte-rand 
+{ 
+    border: 2px #000 solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: pink;
+    margin: 0;
+    font: normal 16px arial, sans-serif;
+    line-height: 1.6em;
+
+}
+/* . is een classname. kan meerdere classes toevoegen aan 1 element hier black-border (punt geeft de class aan)
+deze class moet je toevoegen aan je doc. bijv <header class="black-border"> */
+
+.dikke-rand
+{
+border: 5px lightpink solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: pink;
+    margin: 0;
+    font: normal 16px arial, sans-serif;
+    line-height: 1.6em;
+}
+ul {
+    border: 1px solid #fff;
+    border-radius: 15%;
+}
+
+li { 
+    text-align: center;
+    border-bottom: 1px solid grey;
+    border-radius: 15%;
+    }
+
+    /* id selector met # betekend ga op zoek in html id green-background. id is altijd uniek. #green-background
+    in html: <main id="green-background"> in css #green-background { background-color: green; } */
+
+.stippel-rand
+{
+border: 6px darkgray solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: lightpink;
+    color: hotpink;
+    margin: 1%;
+    font: normal 16px arial, sans-serif;
+    line-height: 1.6em;
+    border-style: dotted;
+
+}
+.linkje
+{
+    font-size: larger;
+    font-family:cursive, Helvetica, sans-serif;
+    font: weight 60;
+}
